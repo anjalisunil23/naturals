@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: smooth fonts */
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    transition: background-color 200ms ease;
+  }
+}
+
+/* Note: Removed BW mode — theme is Light / Dark only. */
